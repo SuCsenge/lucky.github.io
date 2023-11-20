@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+body{
+    background-color: #faf1d0;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family:'Fredericka the Great', cursive;
+}
+#home h1{
+color: white;
+}
+.card-title{
+    color:#B39276;
+    text-align: center;
+    font-variant: small-caps;
+}
+.card{
+    border: 2px solid #B39276;
+}
+nav{
+    background-color: #B39276;
+}
+.banner{
+    background-image: url(../IMG/banner.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    background-color: #B39276;
+}
+footer li{
+list-style-type: none;
+}
+
+#home{
+    background-image: url('../IMG/homebg-min.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+#home .intro{
+    color: white;
+    height: 100vh;
+}
+#home .intro .col-md-8{
+    background-color: rgba(0, 0,0,0.4);
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+.modal-header,.modal-footer{
+    background-color: #ca9e78;
+}
+.blog-img{
+    border: 4px solid #B39276;
+    border-radius: 10px;
+}
+h2{
+    color: black;
+    
+}
+.sorkizart{
+    text-align: justify;
+}
